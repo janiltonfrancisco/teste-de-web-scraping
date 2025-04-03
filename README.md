@@ -3,6 +3,7 @@ Descrição do Projeto:
 Este projeto realiza web scraping no portal da Agência Nacional de Saúde Suplementar (ANS) para baixar os Anexos I e II (em formato PDF) referentes à atualização do Rol de Procedimentos, compactando-os em um arquivo ZIP.
 
 -Funcionalidades
+
 Acesso automatizado ao site da ANS
 
 Identificação e download dos Anexos I e II em PDF
@@ -12,6 +13,7 @@ Criação de diretório para armazenamento local
 Compactação dos arquivos em formato ZIP
 
 -Pré-requisitos
+
 Java JDK 8 ou superior
 
 Maven (para gerenciamento de dependências)
@@ -19,11 +21,13 @@ Maven (para gerenciamento de dependências)
 Conexão com internet para acesso ao site da ANS
 
 -Dependências
+
 JSoup (para web scraping)
 
 Bibliotecas padrão do Java para manipulação de arquivos e ZIP
 
 ---- Como Executar
+
 Clone este repositório:
 bash
 Copy
