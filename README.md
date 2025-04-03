@@ -1,4 +1,5 @@
- Descrição do Projeto:
+Descrição do Projeto:
+
 Este projeto realiza web scraping no portal da Agência Nacional de Saúde Suplementar (ANS) para baixar os Anexos I e II (em formato PDF) referentes à atualização do Rol de Procedimentos, compactando-os em um arquivo ZIP.
 
 -Funcionalidades
@@ -39,6 +40,7 @@ Copy
 java -jar target/webscraper-ans.jar
 
  Estrutura de Arquivos
+ 
 downloads/: Diretório criado automaticamente para armazenar os PDFs baixados
 
 anexos_ans.zip: Arquivo ZIP gerado contendo todos os anexos
@@ -50,17 +52,22 @@ Copy
 private static final String URL_ANS = "https://www.gov.br/ans/..."; // URL do portal
 private static final String DOWNLOAD_DIR = "downloads"; // Pasta de downloads
 private static final String ZIP_FILE = "anexos_ans.zip"; // Nome do arquivo ZIP
+
 --- Limitações
+
 Depende da estrutura atual do site da ANS (mudanças podem quebrar o scraper)
 
 Baixa apenas os dois primeiros arquivos identificados como Anexo I e II
 
 --- Licença
+
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
 --- Contribuições
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 --- Contato
+
 Para dúvidas ou sugestões, entre em contato com [janilton.fsf@gmail.com]
 
